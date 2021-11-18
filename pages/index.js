@@ -5,7 +5,7 @@ import Technologies from '../components/Technologies';
 import Projects from '../components/Projects';
 import Blog from '../components/Blog';
 import Contact from '../components/Contact';
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
