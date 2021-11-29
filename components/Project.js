@@ -3,7 +3,7 @@
 export default function Project({ project }){
   return(
     <>
-     <a href={project.url} target="_blank">
+     <a href={project.url} target="_blank" rel="noreferrer">
       <div className="project-card">
         <div className="project-img">
           <img src={project.img} />
@@ -12,7 +12,7 @@ export default function Project({ project }){
         <p>{project.description}</p>
         {
           project.stack.map((tag) => (
-             <p className="tag">#{tag}</p>)
+             <p key={tag} className="tag">#{tag}</p>)
           )
         }
       </div>

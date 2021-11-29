@@ -10,7 +10,7 @@ export default function Projects(){
         <h1>Projects</h1>
         {
           projectsList.map((project) =>
-          <Project project={project} />
+          <Project key={project.name} project={project} />
           )
         }
         
