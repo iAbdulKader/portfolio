@@ -1,0 +1,30 @@
+.project-card{
+  height: 320px;
+  width: 100%;
+  background: #d3dee1;
+  padding: 15px 20px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0px 20px 20px 0px #00000017;
+  transition: 250ms all ease-in-out;
+}
+.project-card:hover{
+  transform: scale(1.05);
+}
+.project-card p{
+  font-size: .85rem;
+}
+.project-img img{
+  width: 100%;
+  height: 43%;
+  overflow: hidden;
+}
+.tag{
+  display: inline;
+  padding: 0;
+  margin: 4px;
+  color: grey;
+}
+.tag p{
+  font-size: .65rem;
+}
