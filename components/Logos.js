@@ -17,7 +17,7 @@ export default function Logos({ index }){
          </div>)
       : index == 4 ?
           (<div>
-          <h1>1337x API</h1>
+          <h1>1337<span className="koma">x</span> API</h1>
          </div>)
       : null
     }
