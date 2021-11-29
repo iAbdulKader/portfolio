@@ -82,6 +82,9 @@ export default function Technologies(){
   <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> 
   <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> 
   </a> 
+    <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> 
+  <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" ariaHidden="true" role="img" width="40" height="40" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 222"><path d="M128 0l128 221.705H0z" fill="#000"/></svg>
+  </a> 
       </div>
     </div>
     </>
