@@ -34,3 +34,6 @@
 .tagImg{
   margin-right: 10px;
 }
+.project-link:hover{
+  text-decoration: none;
+}

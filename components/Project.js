@@ -6,7 +6,7 @@ export default function Project({ project }){
   
   return(
     <>
-     <a href={project.url} target="_blank" rel="noreferrer">
+     <a className="project-link" href={project.url} target="_blank" rel="noreferrer">
       <div className="project-card">
         <div className="project-img">
            <Logos index={project.index} />
