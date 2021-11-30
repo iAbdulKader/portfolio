@@ -15,13 +15,8 @@ export default function Project({ project }){
         <p>{project.description}</p>
         {
          
-          project.stack.map((tag) => (
-            tag == "nextjs" ? 
-            (<Icon className="tagImg" icon="logos:nextjs-icon" width="25" height="25" />) :
-            tag == "ejs" ?
-             (<Icon className="tagImg" icon="file-icons:ejs" width="25" height="25" />) :
-             (<Icon className="tagImg" icon={`simple-icons:${tag}`} width="25" height="25" />)
-             )
+          project.stack.map((tag) =>
+            (<Icon className="tagImg" icon={tag} width="25" height="25" />)
           )
         }
       </div>
