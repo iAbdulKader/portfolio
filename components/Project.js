@@ -16,7 +16,7 @@ export default function Project({ project }){
         {
          
           project.stack.map((tag) =>
-            (<Icon className="tagImg" icon={tag} width="25" height="25" />)
+            (<Icon key={tag} className="tagImg" icon={tag} width="25" height="25" />)
           )
         }
       </div>
