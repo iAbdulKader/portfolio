@@ -5,7 +5,7 @@ export default function Technologies(){
     <>
     <div className={styles.aboutContainer}>
       <h1>Technologies</h1>
-      <p>Technologies I&apos;ve worked with</p>
+      <p>Technologies I&apos;ve worked with</p><br/>
       <div className="technology-img">
         <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> 
   <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> 

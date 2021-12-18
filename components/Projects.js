@@ -8,11 +8,14 @@ export default function Projects(){
     <>
       <div className={styles.aboutContainer}>
         <h1>Projects</h1>
-        {
-          projectsList.map((project) =>
-          <Project key={project.name} project={project} />
-          )
-        }
+        
+        <div className={styles.project__container}>
+          {
+            projectsList.map((project) =>
+            <Project key={project.name} project={project} />
+            )
+          }
+        </div>
         
       </div>
     </>
