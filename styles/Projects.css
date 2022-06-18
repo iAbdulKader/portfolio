@@ -1,7 +1,8 @@
 .project-card{
   height: 340px;
   width: 100%;
-  background: rgb(207,232,237);
+  /*background: rgb(207,232,237);*/
+  background: #fff;
   padding: 15px 20px;
   margin-bottom: 25px;
   border-radius: 8px;
